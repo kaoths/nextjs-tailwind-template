@@ -1,0 +1,21 @@
+.MainLayout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: var(--navbar-height) 1fr auto;
+  grid-template-areas:
+    "navbar"
+    "main"
+    "footer";
+}
+
+.Navbar {
+  grid-area: navbar;
+}
+
+.Main {
+  grid-area: main;
+}
+
+.Footer {
+  grid-area: footer;
+}

@@ -1,0 +1,66 @@
+{
+  // * Editor config
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    }
+  },
+
+  // * Extension: Code Spell Checker
+  "cSpell.enabled": true,
+  "cSpell.ignoreRegExpList": ["/[\\u0E00-\\u0E7F]/g"],
+  "cSpell.words": ["Noto", "tailwind", "tailwindcss"],
+
+  // * Extension: Todo Tree
+  "todo-tree.general.tags": [
+    "TODO",
+    "FIXME",
+    "BUG"
+    //  "HACK",
+  ],
+  "todo-tree.regex.regex": "(//)\\s*($TAGS).*(\\n\\s*//\\s{2,}.*)*",
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "type": "text-and-comment",
+      "gutterIcon": true,
+      "iconColor": "#fbca04",
+      "foreground": "#fbca04",
+      "background": "#fbca04",
+      "opacity": 10
+    },
+    "FIXME": {
+      "type": "text-and-comment",
+      "gutterIcon": true,
+      "iconColor": "#ff7619",
+      "foreground": "#ff7619",
+      "background": "#ff7619",
+      "opacity": 10
+    },
+    "BUG": {
+      "type": "text-and-comment",
+      "gutterIcon": true,
+      "iconColor": "#ee0701",
+      "foreground": "#ee0701",
+      "background": "#ee0701",
+      "opacity": 15
+    },
+    "HACK": {
+      "type": "text-and-comment",
+      "gutterIcon": true,
+      "iconColor": "#e99695",
+      "foreground": "#e99695",
+      "background": "#e99695",
+      "opacity": 15
+    }
+  }
+}
